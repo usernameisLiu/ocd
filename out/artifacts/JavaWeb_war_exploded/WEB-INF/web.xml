@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.servlet.StudentServlet_Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/view/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>YzmServlet</servlet-name>
+        <servlet-class>com.servlet.StudentServlet_Yzm</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>YzmServlet</servlet-name>
+        <url-pattern>/view/YzmServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
+
+        <!--  xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+          version="4.0"-->
